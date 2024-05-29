@@ -36,8 +36,8 @@ This project includes:
 Clone the repository to your local machine:
 
 ```sh
-git clone https://github.com/yourusername/brainfuck-interpreter-compiler.git
-cd brainfuck-interpreter-compiler
+git clone https://github.com/nolancarougepro/Brainfuck-Ensimag-1A.git
+cd Brainfuck-Ensimag-1A
 ```
 
 ## Usage
@@ -80,19 +80,15 @@ To compile Brainfuck code to Python:
 
 The following `make` commands are available for convenience:
 
-- **Run Tests**: `make test_brainfuck`
+- **Build Tests**: `make test_brainfuck`
 - **Clean Build Files**: `make clean`
-- **Compile Brainfuck to C**: `make compile_to_c`
-- **Compile Brainfuck to Python**: `make compile_to_py`
+- **Build Compiler Brainfuck to C**: `make compile_to_c`
+- **Build Compiler Brainfuck to Python**: `make compile_to_py`
 - **Build Brainfuck Interpreter**: `make brainfuck`
 
 ## Contributions
 
 Contributions are welcome! If you have ideas for improvements or have found bugs, please submit an issue or a pull request. Ensure your code adheres to the existing style and include appropriate tests.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
